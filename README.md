@@ -53,7 +53,16 @@ Este repositorio implementa un pipeline completo para detección y clasificació
 ## Ejecución de la aplicación Gradio
 
 ### **Versión 1: Búsqueda por similitud (Etapa 1)**
-
 ```bash
 python gradio_similitud.py
+```
+### **Versión 2: Clasificación con modelo transfer o CNN propia (Etapa 2)**
+```bash
+python gradio_clasificacion.py
+```
+### **Versión 3: Pipeline completo con detección y clasificación (Etapa 3 y 4)**
+```bash
+python gradio_pipeline.py
+```
+
 
